@@ -1,43 +1,70 @@
-React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-Currently, two official plugins are available:
-- @vitejs/plugin-react uses Babel for Fast Refresh
-- @vitejs/plugin-react-swc uses SWC for Fast Refresh
-Cosmocloud-assignment
-A React application to manage employees, including functionalities to display employee names, view details, and add new employees, fetching and sending data to an API with project ID and environment ID headers.
-Table of Contents
-- Installation
-- Usage
-- Project Structure
-- API Integration
-- Components
-- Pages
-- Routing
-- Run the App
-- License
-Installation
-Clone the repository:
-git clone https://github.com/Ankurgour/cosmocloud-assignment.git
-cd public
-Open and install 
-node_modules:
-npm install
-Start React app:
+
+# Employee Detail Page
+
+This project is a React application that displays employee details using Material-UI and Emotion for styling. It is built with Vite for fast development and uses ESLint for code quality.
+
+## Technologies Used
+
+- **React**: 18.3
+- **Material-UI**: 5.16
+- **Emotion**: 11.13
+- **Vite**: 5.3
+- **ESLint**: 8.57
+- **JavaScript**
+- **npm**
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (>= 14.x)
+- npm (>= 6.x)
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/Ankurgour/cosmocloud-assignment.git
+    cd your-repo-name
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+To start the development server, run:
+
+```bash
 npm run dev
-The app will run on http://localhost:3000.
-Usage
-Instructions on how to use the app once it's running.
-Project Structure
-An overview of the project structure and files.
-API Integration
-Details on how the app integrates with the API, including the headers for project ID and environment ID.
-Components
-A list and description of the main components used in the app.
-Pages
-Details on the different pages available in the app and their functionalities.
-Routing
-Information on how the app handles routing.
-Run the App
-Instructions to run the app, including any additional commands or steps.
-License
-Include the license information for the project.
+```
+
+This will start the Vite development server and you can view the application at http://localhost:3000.
+
+### Building the Application
+
+To build the application for production, run:
+
+```bash
+npm run build
+```
+
+The built files will be in the dist directory.
+
+### Linting the Code
+
+To lint the code using ESLint, run:
+
+```bash
+npm run lint
+```
+
+
+
+
